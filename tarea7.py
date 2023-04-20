@@ -22,14 +22,7 @@ def RaE(valor2):
         prevalor=valor
         print(valorf)
         return valorf
-
-            
-        
-    
-    
-    
-    
-    
+  
 
 print("Bienvenidos a la version de Pyhton")
 print("Numeros selecionados          =1")
@@ -43,12 +36,8 @@ desicion=int(input())
 if desicion==1:
     print("BIENVENIDO AL PRIMER EJERCICIO")
     print("Basicamente consiste encontrar las veces que se repite el numero 9")
-    print("En cambio, no solo eso tu escoges un valor pra inspeccionar")
-    print("Tambien no solo un valor haremos 3")
     num=int(input("Aqui haga ingreso de un numero caulquiera:    "))
     cont1=0
-    #para aumentar el numero de numeros para verificar solo se lo debe pedir y
-    #aumentar a la funcion for mas una variable que almacene las veecs que se repite
     for i in range(num+1):
        cont1+= str(i).count("9")
     print(f"La cantidad de veces que aparece el numero '9' en {num} es de:  {cont1}")
@@ -112,5 +101,4 @@ elif desicion==5:
     elif eleccion==2:
         print("Ingrese el numero Romano que desea convertir a entero")
         valor2=input()
-        print(f"el numero {valor2} en romanos en", RaE(valor2)) 
- 
+        print(f"el numero {valor2} en romanos en", RaE(valor2))  
